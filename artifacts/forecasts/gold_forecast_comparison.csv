@@ -1,0 +1,4 @@
+model,raw_response,prediction,actual,absolute_error,valid_prediction
+google/flan-t5-small,0,0.0,188.4499969482422,,False
+google/flan-t5-base,179.17,179.17,188.4499969482422,9.2799969482422,True
+Naive baseline,191.1699981689453,191.1699981689453,188.4499969482422,2.720001220703125,True

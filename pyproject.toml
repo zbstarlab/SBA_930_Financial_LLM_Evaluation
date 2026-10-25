@@ -1,0 +1,22 @@
+[project]
+name = "sba-930-financial-llm-evaluation"
+version = "0.1.0"
+description = "Evaluation of Hugging Face language models for financial forecasting, economic trend prediction, and risk analysis using historical market data."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "requests>=2.34.2",
+    "sentencepiece>=0.2.2",
+    "torch>=2.14.1",
+    "transformers>=5.20.2",
+    "yfinance>=1.7.0",
+]
+
+[project.scripts]
+sba-930-financial-llm-evaluation = "sba_930_financial_llm_evaluation:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"

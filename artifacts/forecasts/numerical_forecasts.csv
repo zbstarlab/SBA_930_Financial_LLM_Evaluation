@@ -1,0 +1,5 @@
+model,task,prompt,raw_response,prediction,actual,absolute_error
+google/flan-t5-small,spy_price,SPY closed at $460.25 at the end of December 2023. Predict its closing price at the end of January 2024. Return only one number.,0,0.0,467.57855224609375,467.57855224609375
+google/flan-t5-small,inflation_rate,US annual CPI inflation was 3.32% in December 2023. Predict annual CPI inflation for January 2024. Return only one number.,0.,,3.0883429864855705,
+google/flan-t5-base,spy_price,SPY closed at $460.25 at the end of December 2023. Predict its closing price at the end of January 2024. Return only one number.,-457.5,-457.5,467.57855224609375,925.0785522460938
+google/flan-t5-base,inflation_rate,US annual CPI inflation was 3.32% in December 2023. Predict annual CPI inflation for January 2024. Return only one number.,3.32%,3.32,3.0883429864855705,0.23165701351442936

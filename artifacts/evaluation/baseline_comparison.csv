@@ -1,0 +1,7 @@
+model,task,prediction,actual,absolute_error,valid_prediction
+google/flan-t5-small,spy_price,0.0,467.57855224609375,467.57855224609375,False
+google/flan-t5-small,inflation_rate,0.0,3.0883429864855705,3.0883429864855705,True
+google/flan-t5-base,spy_price,-457.5,467.57855224609375,925.0785522460938,False
+google/flan-t5-base,inflation_rate,3.32,3.0883429864855705,0.23165701351442936,True
+Naive baseline,spy_price,460.2484130859375,467.57855224609375,7.33013916015625,True
+Naive baseline,inflation_rate,3.3159099427102934,3.0883429864855705,0.2275669562247229,True
